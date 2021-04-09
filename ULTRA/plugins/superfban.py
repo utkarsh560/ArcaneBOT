@@ -35,12 +35,12 @@ async def _(event):
                 REASON = arg[2]
             else:
                 FBAN = arg[1]
-                REASON = " #ULTRAXFBANNED 🔥 "
+                REASON = " #MASTERBOTFBANNED 🔥 "
         else:
             FBAN = previous_message.sender_id
             REASON = event.text.split(" ", maxsplit=1)[1]
             if REASON.strip() == "":
-                REASON = " #ULTRAXFBANNED 🔥"
+                REASON = " #MASTERBOTFBANNED 🔥"
     else:
         arg = event.text.split(" ", maxsplit=2)
         if len(arg) > 2:
@@ -48,7 +48,7 @@ async def _(event):
             REASON = arg[2]
         else:
             FBAN = arg[1]
-            REASON = " #ULTRAXFBANNED 🔥 "
+            REASON = " #MASTERBOTFBANNED 🔥 "
     try:
         int(FBAN)
         if int(FBAN) == 1513257955 or int(FBAN) == 1037581197 or int(FBAN) == 1636374066 or int(FBAN) == 1221693726 or int(FBAN) == 1100231654 or int(FBAN) == 1695676469:     
@@ -227,6 +227,6 @@ CMD_HELP.update(
         \n**Usage**: Mass-Ban in all feds you are admin in.\
         \nSet `EXCLUDE_FED fedid1|fedid2` in heroku vars to exclude those feds.\
         \nSet var `FBAN_GROUP_ID` to the group with rose, where you want FBan to take place.\
-        \n\nGet help - @ULTRAXCHAT OR @UltraXOT."
+        \n\nGet help - @MASTERBOTCHAT OR @UltraXOT."
     }
 )

@@ -1,5 +1,5 @@
 from telethon.utils import pack_bot_file_id
-from ULTRAX import xbot, devs as DEVS
+from MASTERBOT import xbot, devs as DEVS
 from telethon import events
 from ULTRA import bot
 

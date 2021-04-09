@@ -5,7 +5,7 @@
 
 import asyncio
 import os
-from ULTRAX import BOT, PHOTO, VERSION, ALIVE_USERNAME, ALIVE_BOT_USERNAME
+from MASTERBOT import BOT, PHOTO, VERSION, ALIVE_USERNAME, ALIVE_BOT_USERNAME
 import requests
 import time
 from PIL import Image
@@ -43,7 +43,7 @@ if TG_BOT_USER_NAME_BF_HER is not None:
                     Button.url("Rᴇᴘᴏ", "https://github.com/ULTRA-OP/ULTRA-X"),
                     Button.url("Dᴇᴘʟᴏʏ", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FULTRA-OP%2FHEROKU&template=https%3A%2F%2Fgithub.com%2FULTRA-OP%2FHEROKU")],
                     [Button.url("Sᴛʀɪɴɢ", "https://replit.com/@legendx22/ULTRA-X#main.py"),
-                    Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/ULTRAXOT")],
+                    Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/MASTERBOTOT")],
                     [Button.url("Mᴀsᴛᴇʀ", f"https://t.me/{me.username}"),
                     Button.url("Assɪsᴛᴀɴᴛ", f"https://t.me/{x.username}")
                 ]
@@ -82,10 +82,10 @@ from ULTRA import bot
 async def repo(event):
     if event.fwd_from:
         return
-    ULTRAX = Var.TG_BOT_USER_NAME_BF_HER
+    MASTERBOT = Var.TG_BOT_USER_NAME_BF_HER
     if event.reply_to_msg_id:
         await event.get_reply_message()
-    response = await bot.inline_query(ULTRAX, "alive")
+    response = await bot.inline_query(MASTERBOT, "alive")
     await response[0].click(event.chat_id)
     await event.delete()
 from ULTRA.utils import admin_cmd
