@@ -1,5 +1,5 @@
 
-name: LEGENDX
+name: itachi uchiha
 
 on: push
 
@@ -21,7 +21,7 @@ jobs:
 
           find: "ULTRAX"
 
-          replace: "MASTERBOT"
+          replace: "ARCANEBOT"
 
       - name: Create Pull Request
 
@@ -35,6 +35,6 @@ jobs:
 
           repository: .
 
-          commit_user_name: LEGENDXOP
+          commit_user_name: itachi_2op
 
-          commit_user_email: legendxx08377@gmail.com
+          commit_user_email: UtkarshUchiha213@gmail.com
