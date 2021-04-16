@@ -23,7 +23,7 @@ CMD_HELP_BOT = {}
 BRAIN_CHECKER = []
 INT_PLUG = ""
 LOAD_PLUG = {}
-#from MASTERBOT import xbot 
+#from ARCANEBOT import xbot 
 #xbot = xbot 
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)

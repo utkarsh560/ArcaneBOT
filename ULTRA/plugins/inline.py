@@ -2,7 +2,7 @@
 
 from telethon import events, Button, custom
 import os,re
-from MASTERBOT import ID
+from ARCANEBOT import ID
 from telethon.tl.custom import Button 
 from telethon import events, errors, custom, functions
 @tgbot.on(events.InlineQuery(pattern=r"restart"))

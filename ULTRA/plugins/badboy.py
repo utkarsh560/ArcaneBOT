@@ -516,10 +516,10 @@ async def _(event):
         "**Process exited with** `status 143`",
         "**Starting process with command** `python3 -m ULTRA`",
         "**State changed from starting to up**",
-        "__INFO:MASTERBOT: Logged in as 581993043__",
-        "__INFO:MASTERBOT: Successfully loaded all plugins__",
-        "__INFO:MASTERBOT: Successfully deployed Telegram v69.6.9 to Heroku__",
-        "__INFO:MASTERBOT: Processing the App__",
+        "__INFO:ARCANEBOT: Logged in as 581993043__",
+        "__INFO:ARCANEBOT: Successfully loaded all plugins__",
+        "__INFO:ARCANEBOT: Successfully deployed Telegram v69.6.9 to Heroku__",
+        "__INFO:ARCANEBOT: Processing the App__",
         "**Build Succeeded**",
     ]
     for i in animation_ttl:

@@ -8,7 +8,7 @@ else:
   print ("something got fucked")
 finally:
   print ("ULTRA X IS STARTING WITH TELETHON")
-  from MASTERBOT import xbot
+  from ARCANEBOT import xbot
 from ULTRA import bot
 from sys import argv
 import sys

@@ -21,11 +21,11 @@ from telethon.tl.functions.messages import UpdatePinnedMessageRequest
 from telethon.tl.types import (ChannelParticipantsAdmins, ChatAdminRights,
                                ChatBannedRights, MessageEntityMentionName,
                                MessageMediaPhoto)
-from MASTERBOT import devs
+from ARCANEBOT import devs
 from ULTRA import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
 from ULTRA.utils import register, errors_handler
 from ULTRA.utils import admin_cmd
-from MASTERBOT import NAME, MASTER, BOT
+from ARCANEBOT import NAME, MASTER, BOT
 # =================== CONSTANT ===================
 PP_TOO_SMOL = "`The image is too small`"
 PP_ERROR = "`Failure while processing the image`"

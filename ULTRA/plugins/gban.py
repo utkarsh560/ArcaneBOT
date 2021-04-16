@@ -16,7 +16,7 @@ from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageEntityMentionName
 from telethon.utils import get_input_location
 from telethon.events import ChatAction
-from MASTERBOT import devs
+from ARCANEBOT import devs
 async def get_full_user(event):  
     args = event.pattern_match.group(1).split(':', 1)
     extra = None

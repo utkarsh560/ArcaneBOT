@@ -19,7 +19,7 @@ from telethon.tl.types import ChannelParticipantAdmin, ChannelParticipantCreator
 from var import Var
 
 from ULTRA import CMD_LIST, LOAD_PLUG, LOGS, SUDO_LIST, bot
-from MASTERBOT import xbot
+from ARCANEBOT import xbot
 from ULTRA.helpers.exceptions import CancelProcess
 
 ENV = bool(os.environ.get("ENV", False))

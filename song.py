@@ -117,7 +117,7 @@ thumb_image_path = "./resources/541200.png"
 
 ULTRA_USER = str(ALIVE_NAME) if ALIVE_NAME else "LEGEND BOY"
 
-MASTERBOTBOT = Var.TG_BOT_TOKEN_BF_HER
+ARCANEBOTBOT = Var.TG_BOT_TOKEN_BF_HER
 
 
 

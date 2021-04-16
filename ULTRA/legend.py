@@ -1,1 +1,1 @@
-from MASTERBOT import NAME, MASTER, BOT
+from ARCANEBOT import NAME, MASTER, BOT
